@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Desafio Wiser
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositório contém os arquivos referente ao desafio técnico para a empresa WISER
 
-## Available Scripts
+## Tecnologias Utilizadas 🚀
 
-In the project directory, you can run:
+- React JS
+- Hooks
+- Styled Components
+- Axios
+- Mocky
 
-### `yarn start`
+## Resumo do Projeto 📘
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Foi criado um formulário de login responsivo conforme solicitado no layout enviado. Juntamente deste formulário, foram realizadas validações dos campos, onde, preenchidas corretamente, realizam o login do usuário.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Acessando o Projeto
 
-### `yarn test`
+### `Maquina Local` 🖥️
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Primeiramente você deve clonar o projeto, para isso, use o comando abaixo:
 
-### `yarn build`
+```bash
+    $ git clone https://github.com/victorguirra/wiser.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Depois você deve acessar a pasta do projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+    $ cd wiser
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Após entrar na pasta do projeto, deve instalar todas as dependências. 
+Para isso, você deve utilizar o yarn ou o npm:
 
-### `yarn eject`
+```bash
+    $ yarn
+    $ npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Agora basta inicializar o projeto:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+    $ yarn start
+    $ npm run start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### `Web` 🌐
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Caso não queira clonar o projeto, basta acessar o link abaixo:
 
-## Learn More
+https://facebook.github.io/create-react-app/docs/deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Observações 🔎
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Apenas dois emails com suas respectivas senhas funcionaram para o login, pois foram os únicos cadastrados no serviço de Mock. São eles:
 
-### Code Splitting
+```json
+[
+    {
+        "email": "victor.hugo@gmail.com",
+        "password": "victor01072002"
+    },
+    {
+        "email": "mateus.sivla@gmail.com",
+        "password": "teus1234"
+    }
+]
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contato 📞
 
-### Analyzing the Bundle Size
+Caso haja alguma dúvida, favor entrar em contato via email:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```email
+    📬 victor.hugo.guirra@gmail.com
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h2 align="center">Desenvolvido por: Victor Guirra 💻</h2>
