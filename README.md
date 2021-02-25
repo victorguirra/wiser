@@ -16,9 +16,15 @@ Foi criado um formulário de login responsivo conforme solicitado no layout envi
 
 ## Acessando o Projeto
 
+### `Web` 🌐
+
+Para acessar o site de login, basta acessar o link abaixo:
+
+https://wiser-login.netlify.app/
+
 ### `Maquina Local` 🖥️
 
-Primeiramente você deve clonar o projeto, para isso, use o comando abaixo:
+Caso queira salvar o projeto e acessar o código, deverá usar os seguintes comandos:
 
 ```bash
     $ git clone https://github.com/victorguirra/wiser.git
@@ -45,11 +51,7 @@ Agora basta inicializar o projeto:
     $ npm run start
 ```
 
-### `Web` 🌐
 
-Caso não queira clonar o projeto, basta acessar o link abaixo:
-
-https://wiser-login.netlify.app/
 
 ## Observações 🔎
 
