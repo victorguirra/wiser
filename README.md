@@ -49,7 +49,7 @@ Agora basta inicializar o projeto:
 
 Caso não queira clonar o projeto, basta acessar o link abaixo:
 
-https://facebook.github.io/create-react-app/docs/deployment
+https://wiser-login.netlify.app/
 
 ## Observações 🔎
 
